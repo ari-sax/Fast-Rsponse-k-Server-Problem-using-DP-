@@ -1,13 +1,13 @@
 # Project: Fast Response k-Server Problem – Dynamic Programming & Runtime Analysis
 
-**Author:** Your Name  
+**Author:** Aryan Saxena, Siddhesh Parab, Nithin Maheshwarappa and Christabell Rego. 
 **Purpose:** Implement and analyze a dynamic programming algorithm for the Fast Response k-Server Problem on a linear network. The program computes optimal server placements, measures experimental runtime for various input sizes, compares results with the theoretical time complexity, and visualizes both curves.
 
 ---
 
 ## Files Included
 
-1. **k_server_experiment.py**  
+1. **k-server.py**  
    - Complete Python implementation of the project.  
    - Precomputes segment costs, runs the DP algorithm, and records normalized cost and runtime for multiple values of *n*.  
    - Generates a plot comparing experimental runtime with the scaled theoretical \( n^2 \) curve.
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### 2. Run the Experiment
 ```bash
-python k_server_experiment.py
+python k-server.py
 ```
 
 ### Output
@@ -76,7 +76,7 @@ It also shows a plot with:
 
 ## GitHub Code Repository
 The complete project can be found at:  
-https://github.com/your-repo-here
+https://github.com/ari-sax/Fast-Rsponse-k-Server-Problem-using-DP-.git
 
 ---
 
